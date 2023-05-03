@@ -6,11 +6,12 @@ body {
   height: 100vh;
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  background-image: linear-gradient(
+  background: linear-gradient(
     90deg,
-    hsla(228, 17%, 53%, 1) 0%,
-    hsla(229, 28%, 88%, 1) 100%
+    hsla(60, 100%, 49%, 1) 0%,
+    hsla(77, 85%, 32%, 1) 100%
   );
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,4 +95,43 @@ body {
 
 .action-btn:focus {
   outline: 0;
+}
+
+.music-info {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px 15px 0 0;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: calc(100% - 40px);
+  opacity: 0;
+  padding: 10px 10px 10px 150px;
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+.music-info h4 {
+  margin: 0;
+}
+
+.music-container.play .music-info {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
+.progress-container {
+  background: #fcfcfc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #d2f898;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
 }
