@@ -102,7 +102,7 @@ body {
 }
 
 .music-info {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(23, 26, 27, 0.5);
   border-radius: 15px 15px 0 0;
   position: absolute;
   top: 0;
@@ -116,6 +116,7 @@ body {
 
 .music-info h4 {
   margin: 0;
+  color: white;
 }
 
 #music-container.play .music-info {
@@ -124,7 +125,7 @@ body {
 }
 
 #progress-container {
-  background: #fcfcfc;
+  background: rgb(23, 26, 27);
   border-radius: 5px;
   cursor: pointer;
   margin: 10px 0;
