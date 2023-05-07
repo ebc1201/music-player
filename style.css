@@ -19,7 +19,7 @@ body {
 }
 
 #music-container {
-  background-color: #ffffff;
+  background-color: #171a1b;
   border-radius: 15px;
   box-shadow: 6px 10px 21px -3px rgba(0, 0, 0, 0.75);
   display: flex;
@@ -36,7 +36,7 @@ body {
 
 .img-container::after {
   content: '';
-  background-color: #ffffff;
+  background-color: #171a1b;
   height: 20px;
   width: 20px;
   position: absolute;
@@ -79,7 +79,7 @@ body {
 }
 
 .action-btn {
-  background-color: #ffffff;
+  background-color: #171a1b;
   border: 0;
   color: #dfdbdf;
   font-size: 20px;
@@ -98,7 +98,7 @@ body {
 }
 
 .action-btn:hover {
-  color: #2f2f2f;
+  color: white;
 }
 
 .music-info {
